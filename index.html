@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>An example</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
       <h1><b>This webpage exists as a reference of HTML techniques and syntax</b></h1>
     </header>
     <section id="headings">
-    <h2><b>Headings, Paragraphs and Alerts</b></h2>
+    <h2 class="outline"><b>Headings, Paragraphs and Alerts</b></h2>
       <h3>These 'h#' tags are indicative of a header and its importance on a scale
         of 1 to 6 with 1 being the most important</h3>
       <h3>Although html sizes them accordingly they're primarily used to indicate
@@ -18,10 +19,10 @@
       <p id ="my_id">It is important to note here that the p tag is a block tag
         meaning that each time the tage is used it will generate a new line.
         Furthermore, this paragrapg is tagged with an id.</p>
-      <p onclick = "alert('This is acheived by adding onclick within the opening tag!')">Click me!</p>
+      <p onclick = "alert('This is acheived by adding onclick = alert within the opening tag!')">Click me!</p>
     </section>
     <section id="lists">
-    <h2><b>Lists</b></h2>
+    <h2 class="outline"><b>Lists</b></h2>
       <ul>
         <li>lists can be unordered</li>
       </ul>
@@ -39,7 +40,7 @@
     </section> <!-- Tags like this one are semantic, meaning that they are used
       primarily to indicate metadata to people and browsers-->
     <section id="references">
-    <h2><b>References and Character Entity References</b></h2>
+    <h2 class="outline"><b>References and Character Entity References</b></h2>
       <a href="index.html" title="Titles are good to use because they make
       websites more accessible">The 'a' tag can be used to introduce hyperlinks or
        references to other pages (hover over me and click me!).</a>
@@ -61,7 +62,7 @@
         followed by some letters and a semicolon ;. Furthermore&nbsp;the&nbsp;non&nbsp;-&nbsp;breaking&nbsp;space&nbsp;can&nbsp;be&nbsp;used&nbsp;to&nbsp;make&nbsp;text&nbsp;move&nbsp;together.</p>
     </section>
     <section id="images">
-    <h2><b>Images</b></h2>
+    <h2 class="outline"><b>Images</b></h2>
       <p>
         <img src="IMG_20170910_163048.jpg" width="400" height="533" alt="France">
       </p>
@@ -73,7 +74,7 @@
       doesn't load then the layout remains unaffected. -->
     </section>
     <section id="tables">
-    <h2><b>Tables</b></h2>
+    <h2 class="outline"><b>Tables</b></h2>
       <table style="width:40%">
         <tr> <!-- Table Row -->
           <th>Firstname</th> <!-- Table Header -->
@@ -92,14 +93,8 @@
         </tr>
       </table>
     </section>
-    <h2><b>Style and CSS</b></h2>
+    <h2 class="outline"><b>Style and CSS</b></h2>
     <section>
-      <style media="screen">
-        html {
-          text-align: center;
-          color:
-        }
-      </style>
     </section>
   </body>
 </html>

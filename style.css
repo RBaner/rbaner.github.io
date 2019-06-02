@@ -34,7 +34,19 @@ body h4 {
 }
 
 /* pesudo class selectors  */
-a:hover {
+section a:hover {
   text-decoration: none;
   border: 1px solid black;
 }
+
+section h3:nth-child(3){
+  background-color: lime;
+}
+
+/* div li:nth-child(4):hover   <-- valid
+other pesudo class selectors:
+link
+visited
+hover
+active
+nth-child()  */
