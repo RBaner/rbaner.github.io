@@ -2,27 +2,101 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Rohit's Blog and Professional Reference</title>
+    <title>An example</title>
   </head>
   <body>
-    <b>Rohit Banerjee</b>
-    <ul>
-      <li>Recreational
-          <ul>
-            <li>Metal Working</li>
-            <li>Wood Working</li>
-            <li>Fitness</li>
-          </ul>
-      </li>
-      <li>Professional
+    <h1>This webpage exists as a reference of HTML techniques and syntax</h1>
+    <h2><b>Headings, Paragraphs and Alerts</b></h2>
+    <section id="headings">
+      <h3>These 'h#' tags are indicative of a header and its importance on a scale
+        of 1 to 6 with 1 being the most important</h3>
+      <h3>Although html sizes them accordingly they're primarily used to indicate
+        to people the importance of certain sections</h3>
+      <p>The paragraph tag is used to create a block of text</p>
+      <p id ="my_id">It is important to note here that the p tag is a block tag
+        meaning that each time the tage is used it will generate a new line.
+        Furthermore, this paragrapg is tagged with an id.</p>
+      <p onclick = "alert('This is acheived by adding onclick within the opening tag!')">Click me!</p>
+    </section>
+    <h2><b>Lists</b></h2>
+    <section id="lists">
+      <ul>
+        <li>lists can be unordered</li>
+      </ul>
+      <hr>
+      <ol>
+        <li>or ordered</li>
+      </ol>
+      <hr>
+      <ul>
+        <li>or nested</li>
         <ul>
-          <li>Machine Learning</li>
-          <li>Data Science</li>
-          <li>Mathematics Investigation</li>
-          <li>HTML/CSS</li>
-          <li>Networking</li>
+          <li>like this!</li>
         </ul>
-      </li>
-    </ul>
+      </ul>
+    </section> <!-- Tags like this one are semantic, meaning that they are used
+      primarily to indicate metadata to people and browsers-->
+    <h2><b>References and Character Entity References</b></h2>
+    <section id="references">
+      <a href="index.html" title="Titles are good to use because they make
+      websites more accessible">The 'a' tag can be used to introduce hyperlinks or
+       references to other pages (hover over me and click me!).</a>
+      <a href="http://www.google.com" title="New tab" target="_blank"><div>
+        Div tags surround-able by the a tag and
+        can make the entire div a hyperlink. references can be relative (a .html
+        file in the same directory as the current file) or absolute(a link to a
+        and this one is absolute. Additionally, this link also opens in a new tab
+        via target = _blank.
+      </div></a>
+      <a href="#headings">Lastly, a tags can reference parts of the html document
+      that they're in. This one links to the first section and if this document
+      was long enough would jump to it.</a>
+      <h4>The following paragraph is an exemplification of character entity
+        references</h4>
+      <p>The less than symbol does not normally appear when typed but can be
+        included like this &lt; and greater than as &gt; and ampersand as &amp;.
+        The character entity references are generally structured as and ampersand
+        followed by some letters and a semicolon ;. Furthermore&nbsp;the&nbsp;non&nbsp;-&nbsp;breaking&nbsp;space&nbsp;can&nbsp;be&nbsp;used&nbsp;to&nbsp;make&nbsp;text&nbsp;move&nbsp;together.</p>
+    </section>
+    <section id="images">
+    <h2><b>Images</b></h2>
+      <p>
+        <img src="IMG_20170910_163048.jpg" width="400" height="533" alt="France">
+      </p>
+      <p>Image sources can be relative or absolute like a tage references.
+        The alt attribute displays specified text if the image does not
+        load.</p>
+      <!-- It's a good idea to specify height and width so the browser can
+      block off that section even while the page loads. Or, if the picture
+      doesn't load then the layout remains unaffected. -->
+    </section>
+    <h2><b>Tables</b></h2>
+    <section id="tables">
+      <table style="width:40%">
+        <tr> <!-- Table Row -->
+          <th>Firstname</th> <!-- Table Header -->
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td> <!-- Table Data -->
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+      </table>
+    </section>
+    <h2><b>Style and CSS</b></h2>
+    <section>
+      <style media="screen">
+        p {
+          color: "blue";
+        }
+      </style>
+    </section>
   </body>
 </html>
