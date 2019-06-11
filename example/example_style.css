@@ -53,3 +53,13 @@ nth-child()  */
  #font {
    font-family: monospace;
  }
+
+ /* Text-styling:
+.class {
+  font-family: Arial, Helvetica, sans-serif;     multiple fonts in case one isnt supported
+  color: #0000ff;      hecadecimal colors are more specific
+  font-style: italic;
+  font-weight: bold;       can do incremetanl boldness 0-1000(bold)
+  font-size: 24px;    absolute mesaurement
+  text-transform: lowercase    
+}*/
