@@ -1,3 +1,24 @@
 body {
   font-family: 'Nunito', sans-serif;
 }
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+}
+
+nav ul {
+  list-style: none;
+  width: 900px; 
+  margin: 0 auto;
+}
+
+nav li {
+  line-height: 87px;
+  float: left;
+  text-align: center;
+  width: 150px;
+  border-color: grey;
+}
