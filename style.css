@@ -29,6 +29,7 @@ nav li {
   float: left;
   width: 33%;
   display: inline-block;
+<<<<<<< HEAD
 } 
 
 .sub_index_title {
@@ -41,3 +42,6 @@ nav li {
 .blog_sections {
   margin: 20px;
 }
+=======
+} 
+>>>>>>> 2e67998720e3e525ed8a49baafe1db5e979daf8e
