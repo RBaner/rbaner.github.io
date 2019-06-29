@@ -6,19 +6,38 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:50%;
+  width: 50%;
 }
 
-nav ul {
-  list-style: none;
-  width: 900px; 
-  margin: 0 auto;
+#title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+nav {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 nav li {
-  line-height: 87px;
+  list-style: none;
+  margin: auto;
   float: left;
+  width: 33%;
+  display: inline-block;
+} 
+
+.sub_index_title {
+  margin: 15px;
   text-align: center;
-  width: 150px;
-  border-color: grey;
+  font-family: 'Nunito', sans-serif;
+  font-size: 200%;
+}
+
+.blog_sections {
+  margin: 20px;
 }
