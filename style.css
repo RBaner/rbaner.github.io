@@ -1,23 +1,40 @@
+html{
+  background-color: #faf9f5 ;
+}
 body {
   font-family: 'Nunito', sans-serif;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-image: radial-gradient(circle, white 30%,#faf9f5 40%)
+}
+
 
 .logo {
   display: block;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+  border: 2p
 }
 
 #title {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0px;
   width: 50%;
 }
 
 ul {
   padding: 0;
+  margin-top: 0px;
+  border-right: 1px solid #b2beb5;
+  border-left: 1px solid #b2beb5;
 }
 
 nav {
@@ -28,13 +45,24 @@ nav {
   text-align: center;
 }
 
-nav li {
+ul>li {
   list-style: none;
-  margin: auto;
   float: left;
   width: 33.33%;
   display: inline-block;
+  text-decoration: none;
 } 
+
+li div {
+  padding: 4% 0;
+  background-color: #f0efe7;
+  border-right: 1px solid #b2beb5;
+  border-left: 1px solid #b2beb5;
+}
+
+main div {
+
+}
 
 .sub_index_title {
   margin: 15px;
@@ -47,3 +75,6 @@ nav li {
   margin: 20px;
 }
 
+a:hover {
+  background-color: black;
+}
