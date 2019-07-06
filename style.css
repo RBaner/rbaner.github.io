@@ -51,7 +51,7 @@ ul>li {
   width: 33.33%;
   display: inline-block;
   text-decoration: none;
-} 
+}
 
 li div {
   padding: 4% 0;
@@ -75,6 +75,17 @@ main div {
   margin: 20px;
 }
 
-a:hover {
+a>div a:hover {
   background-color: black;
+}
+
+.col-lg-6 {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.row {
+  text-align: center;
 }
