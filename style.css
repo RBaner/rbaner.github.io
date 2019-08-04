@@ -1,5 +1,5 @@
 html{
-  background-color: #faf9f5 ;
+  background-color: #080808;
 }
 body {
   font-family: 'Nunito', sans-serif;
@@ -7,10 +7,11 @@ body {
 
 * {
   box-sizing: border-box;
+  color: white;
 }
 
 header {
-  background-image: radial-gradient(circle, white 30%,#faf9f5 40%)
+  background-image: radial-gradient(circle, black 30%,#080808 40%)
 }
 
 
@@ -55,13 +56,9 @@ ul>li {
 
 li div {
   padding: 4% 0;
-  background-color: #f0efe7;
+  background-color: #080808;
   border-right: 1px solid #b2beb5;
   border-left: 1px solid #b2beb5;
-}
-
-main div {
-
 }
 
 .sub_index_title {
@@ -75,8 +72,8 @@ main div {
   margin: 20px;
 }
 
-a>div a:hover {
-  background-color: black;
+a:hover div{
+  background-color: #383838;
 }
 
 .col-lg-6 {
@@ -88,4 +85,9 @@ a>div a:hover {
 
 .row {
   text-align: center;
+}
+
+ul a {
+  color: white;
+  text-decoration: none;
 }
