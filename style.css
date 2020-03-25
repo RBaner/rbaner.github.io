@@ -1,5 +1,5 @@
 html{
-  background-color: #080808;
+  background-color: #f0ead6;
 }
 body {
   font-family: 'Nunito', sans-serif;
@@ -7,20 +7,22 @@ body {
 
 * {
   box-sizing: border-box;
-  color: white;
+  color: black;
 }
 
-header {
-  background-image: radial-gradient(circle, black 30%,#080808 40%)
-}
-
+/* Index */
 
 .logo {
   display: block;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  border: 2p
+  border: 2p;
+}
+
+.logo > img {
+  max-width: 20%;
+  max-height: 20%;
 }
 
 #title {
@@ -56,25 +58,32 @@ ul>li {
 
 li div {
   padding: 4% 0;
-  background-color: #080808;
+  background-color: #f0ead6;
   border-right: 1px solid #b2beb5;
   border-left: 1px solid #b2beb5;
 }
 
-.sub_index_title {
-  margin: 15px;
-  text-align: center;
-  font-family: 'Nunito', sans-serif;
-  font-size: 200%;
-}
-
-.blog_sections {
-  margin: 20px;
-}
-
 a:hover div{
-  background-color: #383838;
+  background-color: #979797;
 }
+
+ul a {
+  color: white;
+  text-decoration: none;
+}
+
+#introduction {
+  padding-top: 5%;
+  border-top: 10px solid #979797;
+  display: block;
+}
+
+#introduction > p {
+  display: block;
+  padding-right: 30%;
+  padding-left: 30%;
+}
+/* Resume */
 
 .col-lg-6 {
   display: inline-block;
@@ -87,7 +96,15 @@ a:hover div{
   text-align: center;
 }
 
-ul a {
-  color: white;
-  text-decoration: none;
+/* Blog */
+
+.sub_index_title {
+  margin: 15px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 200%;
+}
+
+.blog_sections {
+  margin: 20px;
 }
