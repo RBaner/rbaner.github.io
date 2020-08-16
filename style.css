@@ -72,13 +72,12 @@ ul a {
   text-decoration: none;
 }
 
-#introduction {
+#content {
   padding-top: 5%;
-  border-top: 10px solid #979797;
   display: block;
 }
 
-#introduction > p {
+#content > p {
   display: block;
   padding-right: 30%;
   padding-left: 30%;
