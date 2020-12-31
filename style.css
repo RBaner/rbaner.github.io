@@ -1,8 +1,10 @@
 html{
   background-color: #f0ead6;
+  height: 100%
 }
 body {
   font-family: 'Nunito', sans-serif;
+  height: 100%
 }
 
 * {
@@ -10,19 +12,22 @@ body {
   color: black;
 }
 
-/* Index */
+main {
+  height: 100%;
+}
+
+/* Common */
 
 .logo {
   display: block;
-  width: 50%;
+  width: 6%;
   margin-left: auto;
   margin-right: auto;
-  border: 2p;
 }
 
-.logo > img {
-  max-width: 20%;
-  max-height: 20%;
+.logo  img {
+  max-width: 85%;
+  max-height: 85%;
 }
 
 #title {
@@ -73,7 +78,6 @@ ul a {
 }
 
 #content {
-  padding-top: 5%;
   display: block;
 }
 
@@ -84,26 +88,68 @@ ul a {
 }
 /* Resume */
 
-.col-lg-6 {
+#resume {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+  text-align: center;
 }
 
-.row {
-  text-align: center;
+#navbar {
+  display:block;
+  width: 100%;
+  height: 100px;
 }
 
 /* Blog */
 
-.sub_index_title {
-  margin: 15px;
-  text-align: center;
-  font-family: 'Nunito', sans-serif;
-  font-size: 200%;
+#post1 {
+  height:100%;
 }
 
-.blog_sections {
-  margin: 20px;
+.post {
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 1%;
+}
+
+.container-fluid {
+  height: 100%;
+}
+
+.row {
+  height: 15%;
+}
+
+/* Contact */
+.contact_media {
+  border-radius: 25px;
+  margin: auto;
+  margin-bottom: 1%;
+  height:100%;
+  width: 9%;
+}
+
+#insta {
+  border: 2px solid #833AB4;
+}
+
+#github {
+  border: 2px solid black;
+}
+
+#linkedin {
+  border: 2px solid #0077b5;
+}
+
+#gmail {
+  border: 2px solid #bb001b;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
 }

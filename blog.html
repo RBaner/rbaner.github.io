@@ -1,29 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <title>Rohit Banerjee</title>
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\twitter_bootstrap\bootstrap-4.3.1-dist\css\bootstrap-grid.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link
-      href="https://fonts.googleapis.com/css?family=Nunito&display=swap"
-      rel="stylesheet"
-    >
-    <title>Rohit: Blog</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <p class="sub_index_title">Blog</p>
+        <center>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="logo" align="middle">
+                </a>
+            </div>
+            <h4 id='title'>Rohit Banerjee</h4>
+            <h4>Blog</h4>
+        </center>
     </header>
-    <div id="blog_posts">
-        <div class = "Example category">
-            <h3>
-                Example Title
-            </h3>
-            <p>
-                Example Content
-            </p>
+    <main>
+        <div id="navbar">
+            <nav>
+                <ul class="nav_links">
+                    <li>
+                        <a href="blog.html">
+                            <div class="links">
+                                Blog
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resume.html">
+                            <div>
+                                Resume
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            <div>
+                                Contact
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-    </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg post" id="post1">
+                    <a href="blog-pages/post1.html">
+                        <img src="images/euler_portrait.png" alt="Portrait of Euler" align="left" height=100%>
+                    </a>
+                    <a href="blog-pages/post1.html"><b>Project Euler Problems</b></a>
+                    <p>I like to spend my freetime solving problems on <a href="https://projecteuler.net/">projecteuler.net</a> as it provides
+                    a plent of oppurtunties to sharpen mathematical thinking, algorithmic knowledge, and practical coding skills!</p>
+                </div>
+                <div class="col-lg post" id="post2">
+                    <a href="blog-pages/post2.html"><b>Reading</b></a>
+                    <p>I love to read in my sparetime so I'll keep record of the books I've read and what I thought about them! </p>
+                </div>
+                <div class="col-lg post" id="post3">
+                    <a href="blog-pages/post3.html"><b>Exercise</b></a>
+                    <p>I've spent quite a bit of time in the gym and have tried multiple fitness programs which I share my opinions on.</p>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>
