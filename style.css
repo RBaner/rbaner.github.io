@@ -102,28 +102,6 @@ ul a {
   height: 100px;
 }
 
-/* Blog */
-
-#post1 {
-  height:100%;
-}
-
-.post {
-  border: 2px solid black;
-  border-radius: 25px;
-  margin: 1%;
-  height: auto;
-}
-
-.container-fluid {
-  height: 100%;
-}
-
-/* .blog_row {
-  height: 20%;
-} */
-
-
 /* Contact */
 .contact_media {
   border-radius: 25px;
@@ -154,4 +132,41 @@ ul a {
   margin-left: auto;
   margin-right: auto;
   height: 100%;
+}
+
+
+/* Blog */
+
+#post1 {
+  height:100%;
+}
+
+.post {
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 1%;
+  height: auto;
+}
+
+.container-fluid {
+  height: 100%;
+}
+
+/* .blog_content {
+  text-align: left;
+} */
+
+/* .blog_row {
+  height: 20%;
+} */
+
+.problem_statement {
+  width: 50%;
+  border: 2px solid grey;
+}
+
+.code {
+  background-color: grey;
+  border: 2px solid black;
+  font: monospace;
 }
