@@ -1,15 +1,32 @@
 html{
-  background-color: #f0ead6;
   height: 100%
 }
 body {
+  background-color: #f0ead6;
+  color: black;
   font-family: 'Nunito', sans-serif;
   height: 100%
 }
 
+body.dark_mode {
+  background-color: rgb(43, 43, 43);
+  color:gray;
+  font-family: 'Nunito', sans-serif;
+  height: 100%
+}
+
+body {
+  background: var(--bkg-color);
+}
+
+h1,
+p {
+  color: var(--text-color);
+}
+
 * {
   box-sizing: border-box;
-  color: black;
+  /* color: black; */
 }
 
 main {
@@ -38,6 +55,31 @@ main {
   width: 50%;
 }
 
+header {
+  text-align: center;
+}
+
+.darkmode {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+    width: 3%;
+}
+
+.darkmode img{
+  background-color: inherit;
+  width:100%;
+}
+
+.darkmode button{
+  background-color: inherit;
+  border: 0px;
+}
+
+
 ul {
   padding: 0;
   margin-top: 0px;
@@ -63,7 +105,7 @@ ul>li {
 
 li div {
   padding: 4% 0;
-  background-color: #f0ead6;
+  /* background-color: #f0ead6; */
   border-right: 1px solid #b2beb5;
   border-left: 1px solid #b2beb5;
 }
@@ -72,8 +114,12 @@ a:hover div{
   background-color: #979797;
 }
 
+a {
+    color: inherit;
+}
+
 ul a {
-  color: white;
+  /* color: white; */
   text-decoration: none;
 }
 
@@ -167,6 +213,7 @@ ul a {
 
 .code {
   background-color: grey;
+  color: black;
   border: 2px solid black;
   font: monospace;
 }
