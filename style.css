@@ -75,6 +75,7 @@ header {
 }
 
 .darkmode button{
+  padding: 0;
   background-color: inherit;
   border: 0px;
 }
